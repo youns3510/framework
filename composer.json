@@ -1,0 +1,26 @@
+{
+    "name": "eagle/framework",
+    "description": "php mvc framework",
+    "type": "library",
+    "license": "mit",
+    "authors": [
+        {
+            "name": "Younes Mahmoud",
+            "email": "youns3510@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+      "require": {
+        "filp/whoops": "^2.14",
+        "jenssegers/blade": "^1.4",
+        "rakit/validation": "^1.4"
+    },
+"autoload": {
+        "psr-4": {
+            "framework\\": "src/"
+        },
+        "files" : ["src/Helpers/helper.php"]
+
+        
+    }
+}
